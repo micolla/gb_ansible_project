@@ -1,0 +1,10 @@
+---
+- name: fs
+  hosts: test
+  become: true
+  become_method: sudo
+  become_user: root
+  remote_user: tech
+  roles:
+#    - fs
+    - user_groups

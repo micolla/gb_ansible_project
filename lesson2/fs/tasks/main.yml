@@ -1,0 +1,11 @@
+---
+- name: Create folder
+  file:
+    path: "{{ make_dir }}"
+    state: directory
+    mode: '0755'
+- name: Create file
+  file:
+    path: "{{ make_dir }}/{{ make_file }}"
+    state: touch
+

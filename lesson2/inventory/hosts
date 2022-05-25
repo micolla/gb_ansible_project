@@ -1,0 +1,9 @@
+[test]
+192.168.1.34
+
+[test:vars]
+make_dir=~/test
+make_file=test_fiel
+group_name=ansible_test
+user_name=ansible_user_test
+user_password=ansible_pwd
