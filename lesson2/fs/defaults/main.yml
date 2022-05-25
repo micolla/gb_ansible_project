@@ -1,0 +1,4 @@
+---
+# defaults file for fs
+#make_dir: '~/test'
+#make_file: 'test_file'

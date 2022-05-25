@@ -1,0 +1,11 @@
+---
+# tasks file for user_groups
+- name: Create group
+  group:
+    name: "{{ group_name }}"
+- name: Create user
+  user:
+    name: "{{ user_name }}"
+    password: "{{ user_password | password_hash('sha512') }}"
+    group: "{{ group_name }}"
+    shell: /bin/bash
