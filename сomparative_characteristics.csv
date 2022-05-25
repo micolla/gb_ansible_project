@@ -1,0 +1,6 @@
+Характеристика,Chef,Puppet,Ansible,SaltStack
+Сложность освоения,Знания Ruby,"Знание Ruby,  Yaml",Знание Yaml,"Знание Python,  Yaml"
+Способы развертывания,push,push,"push,  pull","push,  pull"
+Поддерживаемые ОС,"Windows,  Linux","Windows,  Linux,  Mac","Windows,  Linux,  Mac","Windows,  Linux,  Mac"
+Язык,Ruby,Yaml,Yaml,"Yaml,  Python "
+Поддержка,Сообщество,"Сообщество,  платная",Сообщество,Сообщество
